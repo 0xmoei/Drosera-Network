@@ -1,0 +1,12 @@
+{
+  "name": "drosera-network",
+  "version": "1.0.0",
+  "description": "In this Guide, we contribute to Drosera testnet by: 1. Installing the CLI 2. Setting up a vulnerable contract 3. Deploying a Trap on testnet 4. Connecting an operator to the Trap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
