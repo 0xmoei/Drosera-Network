@@ -58,7 +58,7 @@ sudo docker run hello-world
 
 # Trap Setup
 
-## 1. Configure Environments
+## 1. Configure Environments 
 
 ### Drosera CLI
 
