@@ -205,7 +205,7 @@ tar -xvf drosera-operator-v1.17.2-x86_64-unknown-linux-gnu.tar.gz
 * Currently the Operator CLI version is `v1.17.2`. Verify the latest version [here](https://github.com/drosera-network/releases/releases)
 * You have to get the link of `drosera-operator-v1.x.x-x86_64-unknown-linux-gnu.tar.gz`
 
-# Move path to run it globally
+## Move path to run it globally
 ```bash
 mv drosera-operator ~/drosera/bin/
 echo 'export PATH="$HOME/drosera/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc
