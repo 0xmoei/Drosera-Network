@@ -51,7 +51,7 @@ sudo docker run hello-world
 curl -L https://app.drosera.io/install | bash
 ```
 ```
-source /root/.bashrc
+echo 'export PATH="$HOME/drosera/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc
 ```
 ```
 droseraup
@@ -62,7 +62,7 @@ droseraup
 curl -L https://foundry.paradigm.xyz | bash
 ```
 ```
-source /root/.bashrc
+echo 'export PATH="$HOME/.foundry/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc
 ```
 ```
 foundryup
@@ -205,13 +205,14 @@ tar -xvf drosera-operator-v1.17.2-x86_64-unknown-linux-gnu.tar.gz
 * Currently the Operator CLI version is `v1.17.2`. Verify the latest version [here](https://github.com/drosera-network/releases/releases)
 * You have to get the link of `drosera-operator-v1.x.x-x86_64-unknown-linux-gnu.tar.gz`
 
+# Move path to run it globally
+`mv drosera-operator ~/drosera/bin/`
+`echo 'export PATH="$HOME/drosera/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc`
+
 Test the CLI with `./drosera-operator --version` to verify it's working.
 ```console
 # Check version
 ./drosera-operator --version
-
-# Move path to run it globally
-sudo cp drosera-operator /usr/bin
 
 # Check if it is working
 drosera-operator
