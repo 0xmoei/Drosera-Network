@@ -206,9 +206,10 @@ tar -xvf drosera-operator-v1.17.2-x86_64-unknown-linux-gnu.tar.gz
 * You have to get the link of `drosera-operator-v1.x.x-x86_64-unknown-linux-gnu.tar.gz`
 
 # Move path to run it globally
-`mv drosera-operator ~/drosera/bin/`
-`echo 'export PATH="$HOME/drosera/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc`
-
+```bash
+mv drosera-operator ~/drosera/bin/
+echo 'export PATH="$HOME/drosera/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc
+```
 Test the CLI with `./drosera-operator --version` to verify it's working.
 ```console
 # Check version
