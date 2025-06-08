@@ -30,7 +30,7 @@ services:
     logging:
       driver: "json-file"
       options:
-        max-size: "10m"    # Maximum size of a log file before rotation
+        max-size: "100m"   # Maximum size of a log file before rotation
         max-file: "3"      # Maximum number of log files to keep
 
 volumes:
