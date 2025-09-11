@@ -93,7 +93,10 @@ cd my-drosera-trap
 git config --global user.email "Github_Email"
 git config --global user.name "Github_Username"
 ```
-**Initialize Trap**:
+**Initialize Trap if you are ZOE error try this code before**:
+```
+export PATH="$HOME/.foundry/bin:$PATH"
+```
 ```
 forge init -t drosera-network/trap-foundry-template
 ```
